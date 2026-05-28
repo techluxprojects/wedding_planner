@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wedding Planner</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div>
+      <h1>Uditha & Partner Wedding Planner</h1>
+      <p>Simple Wedding Planning Dashboard</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="card summary-grid" id="summarySection"></section>
+
+    <section class="card">
+      <div class="section-header">
+        <h2>Budget Tracker</h2>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Estimated</th>
+            <th>Actual</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="budgetTable"></tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <div class="section-header">
+        <h2>Guest List</h2>
+        <input type="text" id="guestSearch" placeholder="Search guest..." />
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Side</th>
+            <th>RSVP</th>
+            <th>Table</th>
+          </tr>
+        </thead>
+        <tbody id="guestTable"></tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <div class="section-header">
+        <h2>Task List</h2>
+      </div>
+
+      <div id="taskList"></div>
+    </section>
+
+    <section class="card">
+      <div class="section-header">
+        <h2>Vendors</h2>
+      </div>
+
+      <div id="vendorList" class="vendor-grid"></div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
