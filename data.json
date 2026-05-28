@@ -1,0 +1,62 @@
+{
+  "budget": [
+    {
+      "category": "Hall",
+      "estimated": 450000,
+      "actual": 430000
+    },
+    {
+      "category": "Photography",
+      "estimated": 250000,
+      "actual": 260000
+    },
+    {
+      "category": "Decorations",
+      "estimated": 180000,
+      "actual": 150000
+    }
+  ],
+
+  "guests": [
+    {
+      "name": "Nimal Perera",
+      "side": "Groom",
+      "rsvp": "Confirmed",
+      "table": "A1"
+    },
+    {
+      "name": "Kamal Silva",
+      "side": "Bride",
+      "rsvp": "Pending",
+      "table": "B2"
+    }
+  ],
+
+  "tasks": [
+    {
+      "title": "Book Wedding Hall",
+      "deadline": "2026-07-10",
+      "completed": true
+    },
+    {
+      "title": "Order Wedding Cake",
+      "deadline": "2026-08-01",
+      "completed": false
+    }
+  ],
+
+  "vendors": [
+    {
+      "category": "Photography",
+      "name": "Vision Studio",
+      "phone": "0771234567",
+      "notes": "Need drone coverage"
+    },
+    {
+      "category": "Decoration",
+      "name": "Royal Events",
+      "phone": "0719876543",
+      "notes": "White flower theme"
+    }
+  ]
+}
